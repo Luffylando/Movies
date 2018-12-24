@@ -1,4 +1,139 @@
 body {
-
-    background-color: violet;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(46, 40, 40);
+    color: #fff;
 }
+
+main {
+
+}
+.mainNavbar {
+    height: 60px;
+    background-color: rgb(41, 23, 23);
+    border-bottom: 1px solid #fff;
+}
+
+.mainNavbar ul {
+
+    display: inline-flex;
+    padding-top: 8px;
+
+
+}
+
+.mainNavbar ul li {
+
+    list-style-type: none;
+}
+
+.mainNavbar ul li a {
+
+    color:#fff;
+    text-decoration: none;
+
+}
+
+.mainNavbar .mainLogo {
+
+    float:left;
+}
+
+.mainNavbar .mainLogo img {
+
+    width: 40px;
+    height: 40px;
+    margin-top: -15px;
+    margin-left: 100px;
+}
+
+.mainNavbar .mainNavItems {
+
+    float:right;
+}
+
+.mainNavbar .mainNavItems li a {
+
+    font-size: 13pt;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 30px;
+}
+
+.mainNavbar .mainLogReg{
+
+    float:right;
+    margin-right: 50px;
+
+}
+
+.mainNavbar .mainLogReg li a {
+
+    font-size: 13pt;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 5px;
+}
+
+.mainNavbar .mainSearch{
+
+    float:right;
+}
+
+.indexTitle {
+
+    text-align: center;
+    padding-top: 100px;
+    font-size: 22pt;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 370px;
+    background:#fff;
+  }
+
+.swiper-slide .imgBx {
+    width: 250px;
+    height: 300px;
+    overflow: hidden;
+}  
+
+.swiper-slide .imgBx img {
+
+    height: 300px;
+    width: 100%;
+  }
+
+.swiper-slide .details {
+
+    color: black;
+    text-align: center;
+    font-size: 18pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 10px;
+}   
+
+.footer {
+
+    position: relative;
+    margin-top: 100px;
+    clear: both;
+    height: 60px;
+    color: #fff;
+    background-color: rgb(37, 21, 21);
+    line-height: 60px;
+    text-align: center;
+    border-top: 1px solid #fff;
+
+}
+
+
